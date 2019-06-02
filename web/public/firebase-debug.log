@@ -1,0 +1,29 @@
+[debug] [2019-05-29T12:08:57.046Z] ----------------------------------------------------------------------
+[debug] [2019-05-29T12:08:57.050Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2019-05-29T12:08:57.051Z] CLI Version:   6.5.3
+[debug] [2019-05-29T12:08:57.051Z] Platform:      linux
+[debug] [2019-05-29T12:08:57.051Z] Node Version:  v8.10.0
+[debug] [2019-05-29T12:08:57.052Z] Time:          Wed May 29 2019 12:08:57 GMT+0000 (UTC)
+[debug] [2019-05-29T12:08:57.053Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-29T12:08:57.075Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-29T12:08:57.076Z] > authorizing via signed-in user
+[debug] [2019-05-29T12:08:57.076Z] [iam] checking project laboratory-monitoring-d1caa for permissions ["firebase.projects.get"]
+[debug] [2019-05-29T12:08:57.080Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-05-29T12:08:57.081Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-05-29T12:08:57.374Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-29T12:08:57.437Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/laboratory-monitoring-d1caa:testIamPermissions  
+
+[debug] [2019-05-29T12:08:58.722Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-29T12:08:58.725Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laboratory-monitoring-d1caa  
+ 
+[debug] [2019-05-29T12:08:59.746Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/mnt/c/Users/mikae/Desktop'...
+[info] 
+[debug] [2019-05-29T12:08:59.763Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/184266062722/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-29T12:09:00.772Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
